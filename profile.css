@@ -1,0 +1,228 @@
+*{
+	margin: 0px; padding: 0px;
+}
+#font{
+	font-family: Pacifico;
+	font-size: 40px;
+	color: white;
+	padding-left: 30%; 
+}
+
+@font-face{
+	font-family: "Pacifico";
+	src:url('Pacifico.ttf') format('truetype');
+}
+
+#wrapper{margin: auto;
+	width: 90%;
+	height: auto;
+}
+header{	float: left;
+		width: 100%;
+		height: 70px;
+		background-color:#142738;
+	 	box-shadow: 0px 0px 5px black;
+}
+#search_box{
+	float: left;
+	width: 30%;
+	height: 70px; 
+}
+
+#company_name{
+	float: left;
+	width: 45%;
+	height: 70px;
+}
+header a{text-decoration: none;
+	padding:4%;	
+	color: white;
+}
+#head_menu{
+	float: left;
+	width: 25%;
+	height: 70px;
+	 
+	margin-top:2%;
+}
+
+#headerhover1:hover{background-color: solid ;
+ transition-duration: .5s ;
+ color:white;
+ border-radius: 5px 5px 5px 5px;
+ box-shadow: 0px 0px 1px white;
+  text-decoration: none;
+}
+
+#headerhover2:hover{background-color: solid ; 
+	transition-duration: .5s ;
+	color:white;
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 0px 0px 1px white; 
+	text-decoration: none;
+}
+
+#headerhover3:hover{background-color: solid ; 
+	transition-duration: .5s ;
+	color:white;border-radius: 5px 5px 5px 5px;
+	box-shadow: 0px 0px 1px white; 
+	text-decoration: none;
+}
+
+#headerhover4:hover{background-color:  solid ; 
+	transition-duration: .5s ;
+	color:white;border-radius: 5px 5px 5px 5px;
+	box-shadow: 0px 0px 1px white; 
+	text-decoration: none;
+}
+#container{float: left;
+	width: 100%;
+	height: 700px ; 
+	background: red;
+}
+
+aside{float: left;
+	width: 25%;
+	height: 700px ; 
+	background: #142738;
+	box-shadow: 0px 0px 5px black;
+}
+#menu{
+	float: left;
+	width: 100%;
+	height: 700px ; 
+	background: #142738;
+	box-shadow: 0px 0px 5px black;	
+}
+#menu ul{
+	padding: 20px;
+	list-style: none;
+}
+#menu ul li{
+	margin-top: 40px;
+	border: 0px solid black;
+	border-radius: 5px 5px 5px 5px ;
+	background: #294e70 ;
+	box-shadow: 1px 1px 10px black;
+	padding: 8px;
+}
+#menu ul li a{
+	padding: 50px;
+	font-size: 17px;
+	color: white;
+	text-decoration: none;
+}
+#menu ul li:hover{
+	background-color: solid ; 
+	transition-duration:.5s;
+	color:white;
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 0px 0px 1px white; 
+	text-decoration: none;
+}
+
+content{float: left;
+	width: 75%;
+	height: 700px ; 
+	background: #f2f2f2;
+	box-shadow: 0px 0px 5px black;
+}
+content h2{
+	font-family: Pacifico;
+}
+#profileedit{
+    height: 600px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 3%;
+    background: #ffffe6;
+    box-shadow: 0px 0px 5px;
+}
+content img{border-radius: 50%;
+	width: 15%;
+    margin:2%;
+    margin-left: 45%; 
+}
+#footer{float: left;
+	width: 100%;
+	height: 80px ; 
+	background: black;
+	box-shadow: 0px 0px 5px black;
+}
+
+@media only screen and (min-width:250px) and (max-width:900px){
+	#wrapper{float: left;
+		width: 100%;
+		height: auto;
+	}
+	header{	
+		height: auto;
+	}
+	#search_box{
+		
+		height: auto; 
+	}
+	#font{
+		font-size: 30px;
+	}
+	#container{
+		width: 100%;
+		height: auto ;
+	}
+	#content{
+		box-shadow: 0px 0px 0px ;
+		height: auto;
+		width: 100%;
+	}
+	aside{
+		width: auto;
+		height:930px;
+	}
+	#profile{
+		width: 100%;
+		height: auto ; 
+	}
+	content{
+		width:100%;
+		height: auto ; 
+		}
+		#profile img{
+			width: 25%;
+			height: auto;
+		}
+		#profile a{
+			margin: auto;
+			margin-top: 25%;
+			margin-left: 3%;	
+		}
+		#time{
+			margin-left: 40%;
+			margin-top: 5%;
+		}
+		#daymeal{
+			width: 100%;
+			height: auto;
+		}
+		#circle1{
+			width:30%;
+			height: auto;
+			margin-left: 35%;
+			border-radius: 800px 800px 800px 800px;
+		}
+		#circle2{
+			width:30%;
+			height: auto;
+			margin-left: 35%;
+			border-radius: 800px 800px 800px 800px;
+		}
+		#circle3{
+			width:30%;
+			margin-left: 35%;
+			height: auto;
+			border-radius: 800px 800px 800px 800px;
+		}
+		#footer{
+			height: auto ; 
+		}
+}
+

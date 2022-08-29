@@ -1,0 +1,33 @@
+.bg{
+	background: url('loginbackground1.jpg') ;
+	
+}
+.form{
+	margin-top: 1%;
+	
+}
+.form_container{
+	border: 0px solid #fff;
+	border-radius: 20px 20px 20px 20px; 
+	margin-left: 35%;
+	padding: 15px 0px 50px ;
+	-webkit-box-shadow: 2px 9px 44px 9px rgba(0,0,0,1);
+-moz-box-shadow: 2px 9px 44px 9px rgba(0,0,0,1);
+box-shadow: 2px 9px 44px 9px rgba(0,0,0,1);
+}
+.color{color: white
+
+}
+#font{
+	font-family: Pacifico;
+	color: bisque;
+	font-size: 30px;
+}
+
+@font-face{
+	font-family: "Pacifico";
+	src:url('Pacifico.ttf') format('truetype');
+}
+#color2{color: black}
+.left{margin-left: 54%}
+.left2{margin-left: 52%}

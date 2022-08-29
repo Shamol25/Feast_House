@@ -1,0 +1,43 @@
+.bg{
+	background: url('loginbackground1.jpg') ;
+	
+}
+.form{
+	margin-top: 7%;
+	
+}
+
+#font_name{
+	font-family: Pacifico;
+	font-size: 35px;
+	color: white;
+}
+#font{
+	font-family: Pacifico;
+	font-size: 25px;
+	color: white;
+}
+
+@font-face{
+	font-family: "Pacifico";
+	src:url('Pacifico.ttf') format('truetype');
+}
+a{position: absolute;
+margin-top: 10%;
+margin-left: 60%;
+ text-decoration: none;
+ }
+.form_container{
+	border: 0px solid #fff;
+	border-radius: 20px 20px 20px 20px; 
+	margin-left: 25%;
+	padding: 40px 0px 70px ;
+	-webkit-box-shadow: 2px 9px 44px 9px rgba(0,0,0,1);
+-moz-box-shadow: 2px 9px 44px 9px rgba(0,0,0,1);
+box-shadow: 2px 9px 44px 9px rgba(0,0,0,1);
+}
+.color{color: white}
+#color2{color: black ;}
+.left{margin-left: 54% ; margin-top: 3%}
+.left2{margin-left: 52%}
+.left3{margin-left : 82%; margin-top : 3%;}
